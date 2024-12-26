@@ -1,0 +1,155 @@
+
+body{
+  direction:rtl;
+  padding: 0px;
+  margin:0px;
+  
+  
+}
+.header-text{
+  color:black;
+  font-size:2rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-right: .5rem;
+  text-align:center;
+  padding:0px;
+  margin: 0px;
+}
+.image-header{
+  height:10em;
+  padding-right: .5rem;
+
+  
+}
+.header{
+  height: 100px;
+  /*background-color: rgb(107, 49, 49);*/
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius:5px;
+  background-color: white;
+
+  
+  
+}
+.header-ul{
+  text-align:center;
+}
+.header-li{
+  list-style-type: none;
+  display: inline-block;
+  border:1px solid silver;
+  border-radius:5px;
+  padding:5px;
+  margin-left:10px;
+  cursor:pointer;
+  width: 80px;
+  
+  
+}
+.header-li:hover{
+  background-color:black;
+  color: white;
+  
+}
+.main{
+ padding:5px;
+ 
+ 
+}
+.main-p{
+  color: rgb(255, 255, 255);
+  background-color: gray;
+  font-size:18px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.a-link{
+  text-decoration: none;
+  font:20px;
+  color:black;
+
+}
+.a-link:hover{
+ color:white;
+ 
+}
+hr {
+  border: none;
+  height: 4px;
+  
+  border-top: 2px dashed #000; /* Blue dashed line */
+}
+p{
+  font-size:20px;
+  background-color: white;
+  
+}
+h1{
+  text-align: center;
+}
+@media (max-width:500px){
+img{
+  width:200px;
+  
+}
+.header-li{
+  width:50px;
+  font-size: 12px;
+  padding-left:1px;
+
+}
+
+.main{
+  font-size:12px;
+  padding:5px;
+
+}
+ iframe{
+  width:200px;
+ }
+  .main-p{
+    color:white;
+  }
+  p{color: rgb(0, 0, 0);}
+  
+  .header-li{
+    color: white;
+    background-color:black;
+
+  }
+  .header-li:hover{
+    background-color:white;
+    color:black;
+  }
+  h1,h3,h2{color:rgb(167, 111, 71)}
+  h2{
+    font-size:20px;
+    
+  }
+  p{
+    font-size:15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(161, 148, 131);
+    margin:0px;
+  }
+
+}
+@media (min-width:750px) {
+  html{
+  
+    
+
+  }
+  p{
+    margin:0px;
+  }
+  
+  
+  
+}
+.image-in-table{
+  width: 100%;
+}
+tr{
+  background-color: black;
+}

@@ -1,0 +1,138 @@
+
+@media (min-width:800px){
+  nav{
+    background-color: #e9e2e2;
+    text-align: center;
+    left:0;
+    top:60px;
+    bottom:0;
+    color:black;
+    position: fixed;
+    z-index: 200;
+    padding: 0px;
+    margin: 0px;
+    width:200px;
+    display:flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    padding-top:60px;
+  }
+  .sidenav-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+     
+  }
+  .sidenav-list li{
+    margin: 15px;
+  }
+  .sidenav-list a {
+    color: black;
+    text-decoration:none;
+    margin:15px;
+    margin-top:10px;
+    font-size: 18px;
+    white-space: nowrap;
+   
+  }
+  .sidenav-list a:hover {
+    text-decoration: underline;
+  }
+  .slider{
+    width:100%;
+    height:300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .slider img{
+    width:100%;
+    height:100%;
+    object-fit:contain;
+    display: none;
+    padding:20px;
+    animation: transform 3s  1s;
+    
+  }
+  @keyframes transform{
+    from{
+      transform: translateY(0);
+    }
+    to{
+      transform: translateX(-300px);
+    }
+  }
+}
+@media (max-width:799px){
+  nav{
+    background-color: #e9e2e2;
+    text-align: center;
+    left:0;
+    top:60px;
+    bottom:0;
+    color:black;
+    position: fixed;
+    z-index: 200;
+    padding: 0px;
+    margin: 0px;
+    width:0;
+    display:flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    padding-top:60px;
+    overflow: hidden;
+  }
+  .sidenav-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+     
+  }
+  .sidenav-list li{
+    margin: 15px;
+  }
+  .sidenav-list a {
+    color: black;
+    text-decoration:none;
+    margin:15px;
+    margin-top:10px;
+    font-size: 18px;
+    white-space: nowrap;
+   
+  }
+  .sidenav-list a:hover {
+    text-decoration: underline;
+  }
+  .slider{
+    width:100%;
+    height:300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .slider img{
+    width:100%;
+    height:100%;
+    object-fit:contain;
+    display: none;
+    padding:20px;
+    animation: transform 3s  1s;
+    
+  }
+  @keyframes transform{
+    from{
+      transform: translateY(0);
+    }
+    to{
+      transform: translateX(-300px);
+    }
+  }
+}
